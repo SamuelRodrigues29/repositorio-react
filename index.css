@@ -1,0 +1,31 @@
+html,body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg,
+  rgba(9, 35, 175, 1) 0%, 
+  rgba(0, 0, 0, 1)100%);
+  color: white;
+}
+
+button {
+  background: rgb(50, 50, 226);
+  color: white;
+  padding: 0, 45px;
+  border: 2px solid white; /* borda branca*/
+  border-radius: 25px; /* borada arredondada*/
+  height: 50px; /* altura da caixa do botao (onde o nome é inserido*/
+  text-transform: uppercase; /* texto todo em maiusculo*/
+  font-weight: bold; /*fonte em negrito */
+  font-size: 1.2em;/* tamanho da fonte*/
+  cursor: pointer; /*muda o mouse quando o mesmo está em cima do botão */
+  transition: .4; /* tempo para ativar o evento acima */
+}
+
+button:hover{
+  background-color: rgb(1, 1, 37); /* cor de fundo do botao*/
+}
